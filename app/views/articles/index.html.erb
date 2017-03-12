@@ -1,0 +1,17 @@
+<h1>Listing articles</h1>
+
+<%= link_to 'Create a new', new_article_path %>
+
+<% @articles.each do |art| %>
+  <div class="title-show">
+    <h3>Title</h3>
+    <%= art.title %>
+  </div>
+
+  <div class="text-show">
+    <h3>Content</h3>
+    <%= art.text %>
+  </div>
+
+  <%= link_to 'Show', article_path(art) %><hr>
+<% end %>
