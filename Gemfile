@@ -14,13 +14,10 @@ gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
-<<<<<<< HEAD
-=======
 
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 
->>>>>>> ArticleBasic0.1.1
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -45,10 +42,7 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
-<<<<<<< HEAD
-=======
   gem 'rspec-rails', '~> 3.5'
->>>>>>> ArticleBasic0.1.1
 end
 
 group :development do
